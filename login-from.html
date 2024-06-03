@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-From</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        /* login form style */
+        input{
+            display: block;
+            margin-bottom: 20px;
+            height: 30px;
+            width: 400px;
+            margin-inline: auto;
+        }
+        input:focus{
+            border: 1px solid red;
+            color: orangered;
+            border: none;
+        }
+        input:focus-visible{
+            outline: 1px solid red;        
+        }
+        input::placeholder{
+            color: chocolate;
+        }
+        button{
+            background-color: cyan;
+            font-size: 18px;
+            font-weight: 400;
+            color:rgb(25, 0, 255);
+            border-radius: 5px;
+            border: none;
+            cursor:pointer;
+            border: 1px solid red;
+        }
+        button:hover{
+            background-color: rgb(203, 0, 243);
+            color: rgb(255, 208, 0);
+            border: 1px solid rgb(45, 148, 5);
+        }
+        .bottom{
+            margin-top: 100px;
+        }
+        .gap{
+            margin-bottom: 40px;
+        }
+        li{
+            font-size: 30px;
+        }
+        li:first-child{
+            color: brown;
+        }
+        li:last-child{
+            background-color: chartreuse;
+        }
+        li::first-letter{
+            color: crimson;
+        }
+        li:nth-child(2n-3){
+            color: saddlebrown;
+        }
+        li:nth-child(2n-2){
+            color: rgb(26, 221, 0);
+        }
+        li:nth-child(3){
+            color: rgb(55, 0, 255);
+        }
+        a{
+            font-size: 25px;
+            margin: 10px;
+            text-decoration: none;
+            color: goldenrod;
+        }
+        a:hover{
+           color: darkred; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Login</h1>
+    <form>
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password"required>
+        <input type="Phone number" placeholder="Phone Number" required>
+        <div>
+            <button type="submit">Login</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <div class="bottom">
+        <div class="gap">
+            <li>content-1</li>
+            <li>content-2</li>
+            <li>content-3</li>
+            <li>content-4</li>
+            <li>content-5</li>
+            <li>content-6</li>
+        </div>
+        <a href="https://github.com/asifikbal01890/pseudo/blob/main/login-form.html"> Go to Github</a>
+
+        <a href="https://www.typing.com/student/lesson/29371/6th-grade-vocabulary">Type Practice</a>
+
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type">Go to mojila</a>
+    </div>
+</body>
+</html>
